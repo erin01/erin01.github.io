@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html> 
+
+<head>
+  <meta charset="utf-8"">
+  <title>Erin &amp; Peter</title>
+</head>
+<body>	
+
+  <h1>Plays to Stay</h1>
+
+  <p>We have reserved blocks of rooms at the following hotels.</p>
+  
+  <p><h2>Places to Stay</h2>
+  
+  <h3>The W Hotel</h3>
+  <p>1600 Pennsylvania Ave, Washington DC 22222</p>
+  <p>Take in all the sites around histroic DC. Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time Natural resources economic independence emergency response, civil society save the world Peace Corps readiness. </p>
+  
+  
+  <h3>Holiday Inn</h3>
+  <p>1600 Pennsylvania Ave, Washington DC 22222</p>
+  <p>Take in all the sites around histroic DC. Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time Natural resources economic independence emergency response, civil society save the world Peace Corps readiness. </p>
+ 
+   <h3>The Helix</h3>
+   <p>1600 Pennsylvania Ave, Washington DC 22222</p>
+ <p>Take in all the sites around histroic DC. Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time Natural resources economic independence emergency response, civil society save the world Peace Corps readiness. </p>
+ 
+  
+  
+   
+
+<img src= "http://gallery.mailchimp.com/c08beb4212cca1cfd03c7809e/images/94a131dd-934b-424a-b128-eed866a7ad03.jpg" width="200"/>
+
+  <ol>
+    <li><a href="index.html">Welcome</a></li>
+    <li><a href="events.html">The Big Day</a></li>
+    <li><a href="visit.html">Things to Do</a></li> 
+    <li><a href="stay.html">Where to Stay</a></li>
+    <li><a href="gifts.html">Gifts</a></li>
+    <li><a href="gethere.html">Directions</a></li>
+    <li><a href="kids.html">Children</a></li>
+    <li><a href="index.html">Sunday</a></li>
+  </ol>
+
+
+  <a href="index.html" id="" title="index">index</a>
+
+</body>
+</html>
