@@ -88,7 +88,7 @@ section {
 
 .intro{
 	background-color: rgba(28,13,10,.75);
-	background-image: url("../images/photo.png"); 
+	background-image: url("images/photo.png"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
