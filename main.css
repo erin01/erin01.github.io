@@ -10,7 +10,6 @@ body
   line-height: 24px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 800px;
   text-align: center;
   background-color: rgba(28,13,10,.75);
   }
@@ -52,12 +51,8 @@ h3 {
   font-family: georgia;
   font-size: 200;
   text-align: center;
-}
+} 
 
-
-img {
-	max-width: 100%;
-}
 
 section {
   width: 100%;
@@ -67,17 +62,57 @@ section {
   max-width: none;
   background-color: #373B44;
   height: 100vh;
-  
-  &:nth-of-type(2n) {
-    background-color: #FE4B74;
-  }
-}
 
 .intro {
   height: 90vh;
+  background-image: images/photo.gif;
+  background: #67b11c (."images/photo.gif") 20px 50% no-repeat;
 }
 
 .content {
   display: table-cell;
   vertical-align: middle;
+}
+
+*/ 
+
+.chunk{
+    width: 100%;
+    padding: 0 7%;
+    display: table;
+    margin: 0;
+    max-width: none;
+    background-color: #373B44;
+    height: 100vh;
+}
+
+.intro{
+	background-color: rgba(28,13,10,.75);
+	background-image: url("../images/photo.png"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 90vh;
+}
+
+.date{
+	background-color: #373B44;
+}
+
+.wedding-details{
+	background-color: #373B44;
+}
+
+.accomodations{
+	background-color: #373B44;
+}
+
+.gifts{
+	background-color: #373B44;
+}
+
+.content{
+    display: table-cell;
+    vertical-align: middle;
 }
