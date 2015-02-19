@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box; 
+}
 body 
   {
   color: gray;
@@ -9,6 +12,7 @@ body
   margin-right: auto;
   max-width: 800px;
   text-align: center;
+  background-color: rgba(28,13,10,.75);
   }
 
 h1 {
@@ -31,7 +35,7 @@ h3 {
   text-align: center;
 }
 
-.red {
+/* .red {
   background: #ef4723;
   background-image: initial;
   background-position-x: initial;
