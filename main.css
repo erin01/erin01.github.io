@@ -19,19 +19,29 @@ h1 {
   color: salmon;
   font-family:'open sans';
   text-align: center;
+  text-transform: uppercase;
 }
 
 h2 {
-  color: grey;
+  color: white;
   font-family: 'open sans';
   text-align: center;
 }
 
 h3 {
-  color: grey;
+  color: white;
   font-family: 'open sans';
   font-size: 200;
   text-align: center;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: #FEC1BA;
+  font-family: 'Abril+Fatface';
+  font-size: 200;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* .red {
@@ -97,15 +107,21 @@ section {
 }
 
 .date{
-	background-color: #373B44;
+	background-color: #FEE0DD;
+	
 }
 
 .wedding-details{
-	background-color: #373B44;
+	background-color: rgba(28,13,10,.75);;
+	background-image: url("images/brookland.png"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .accomodations{
-	background-color: #373B44;
+	background-color: #FEE0DD;
 }
 
 .gifts{
@@ -115,4 +131,26 @@ section {
 .content{
     display: table-cell;
     vertical-align: middle;
+}
+
+
+
+p {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #C3CAD9;
+}
+
+a {
+   color: #FE4B74;
+   font-weight: 500;
+   text-decoration: none;
+
+  &:hover{ 
+    opacity: 0.8;
+  }
+  
+  &:active {
+    top: 1px;
+  }
 }
