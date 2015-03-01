@@ -1,13 +1,65 @@
 * {
   box-sizing: border-box; 
+ 
+  /* http://meyerweb.com/eric/tools/css/reset/ 
+     v2.0 | 20110126
+     License: none (public domain)
+  */
+
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed, 
+  figure, figcaption, footer, header, hgroup, 
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+  	margin: 0;
+  	padding: 0;
+  	border: 0;
+  	font-size: 100%;
+  	font: inherit;
+  	vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure, 
+  footer, header, hgroup, menu, nav, section {
+  	display: block;
+  }
+  body {
+  	line-height: 1;
+  }
+  ol, ul {
+  	list-style: none;
+  }
+  blockquote, q {
+  	quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+  	content: '';
+  	content: none;
+  }
+  table {
+  	border-collapse: collapse;
+  	border-spacing: 0;
+  }
+  
+  
+  
 }
 body 
   {
-  color: gray;
-  font-family: 'open sans';
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
+  color: #332725;
+  font-family: 'Roboto';
+  font-size: 1em;
+  font-weight: 100;
+  line-height: 40px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -17,31 +69,61 @@ body
 h1 {
   border-bottom: 0px solid black;
   color: salmon;
-  font-family:'open sans';
+  font-family: 'oswald';
+  font-size: 4em;
+  font-weight: 200;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  line-height: -1em;
   text-align: center;
   text-transform: uppercase;
 }
 
 h2 {
-  color: white;
+  color: pink;
   font-family: 'open sans';
+  font-weight: 200;
   text-align: center;
 }
 
 h3 {
-  color: white;
+  color: rosybrown;
   font-family: 'open sans';
-  font-size: 200;
+  font-size: 100;
+  margin: -20;
+  padding: -10;
+  line-height: 70%;
   text-align: center;
   text-transform: uppercase;
 }
 
 h4 {
-  color: #FEC1BA;
-  font-family: 'Abril+Fatface';
-  font-size: 200;
+  color: #fe4b74;
+  font-family: 'oswald';
+  font-size: 2em;
+  font-weight: 100;
   text-align: center;
+  line-height: 70%;
   text-transform: uppercase;
+}
+
+
+h5 {
+  color: indianred;
+  font-family: 'oswald';
+  font-size: 1em;
+  font-weight: 100;
+  text-align: left;
+  line-height: 70%;
+  text-transform: uppercase;
+}
+
+hr {
+	height:2px;
+	border-width:0;
+	color:#E6D8CA;
+	background-color:#E6D8CA;
 }
 
 /* .red {
@@ -92,65 +174,243 @@ section {
     display: table;
     margin: 0;
     max-width: none;
-    background-color: #373B44;
+     background-color: antiquewhite;
     height: 100vh;
 }
 
 .intro{
-	background-color: rgba(28,13,10,.75);
-	background-image: url("images/photo.png"); 
+  background-color: rgba(28,13,10,.75); 
+  background-image: url("images/photo.png"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height: 90vh;
+  color: black;
 }
 
 .date{
-	background-color: #FEE0DD;
+  background-color: white;
+  height: 50vh;
+  
 	
 }
 
+.story{
+  background-color: #FEE0DD;
+   height: 70vh;
+	
+}
+
+
+.table{
+  color: #B28782;
+  font-family: 'open sans';
+  font-size: 100;
+  text-align: left;
+  line-height: 160%;
+margin-bottom: 0px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 0px;
+  text-transform: none;
+  width: 70%;
+  
+}
+td {
+    padding: 15px;
+	vertical-align: top;
+	4f4644
+} 
+
+
 .wedding-details{
-	background-color: rgba(28,13,10,.75);;
+	background-color: rgba(28,13,10,.75);
 	background-image: url("images/brookland.png"); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+	font-size: 100;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
 }
 
-.accomodations{
-	background-color: #FEE0DD;
+
+/*
+.map{
+	background-image: url("images/ParkingMETRO.jpg");
+	background-position:50% 50%; 
+	background-repeat:no-repeat; 
+	display:block; 
+	height:140px; 
+	text-indent:-9999px;
+	-moz-background-size:cover; 
+	-webkit-background-size:cover; 
+	background-size:cover;
 }
+*/
+
+.map{
+	background-image: url("images/ParkingMETRO.jpg"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	font-size: 100;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	}
+
+.google-maps {
+     position: relative;
+     padding-bottom: 75%; // This is the aspect ratio
+     height: 0;
+     overflow: hidden;
+     background-color: white;
+     height: 100px;
+	 }
+ 
+ .google-maps iframe {
+     position: absolute;
+     top: 40;
+     left: 40;
+	 right: 40;
+	 bottom: 40;
+     width: 100% !important;
+     height: 100% !important;
+	 }
+
+
+.accomodations{
+	background-color: linen;
+	}
 
 .gifts{
 	background-color: #373B44;
-}
+    background-color: #FEE0DD;
+     height: 40vh;
+	}
 
 .content{
     display: table-cell;
     vertical-align: middle;
-}
-
+	}
 
 
 p {
   font-size: 1.5em;
-  font-weight: 500;
-  color: #C3CAD9;
+  font-weight: 200;
+  color: rosybrown;
+	}
+	
+.p-small {
+  font-size: 100%;
+  font-weight: 200;
+  line-height: 170%;
+  color: #1F0010;
 }
 
-a {
-   color: #FE4B74;
-   font-weight: 500;
+.p-details {
+  font-size: 100%;
+  font-weight: 100;
+  line-height: 170%;
+  color: rosybrown;
+}
+
+a.one {
+   color: white;
+   background-color: #fe4b74;
+   font-family: 'Oswald';
+   font-size: 300;
+   font-size: 1em;
+   font-weight: 400;
+   margin-bottom: 4px;
+   margin-left: 0px;
+   margin-right: 0px;
+   margin-top: 20px;
+   padding: 0.7% 2.0%;
+   padding-top: 0.7%;
+   padding-right: 2%;
+   padding-bottom: 0.7%;
+   padding-left: 2%;
    text-decoration: none;
+   text-transform: none;
+   }
 
-  &:hover{ 
-    opacity: 0.8;
-  }
+  a.one:hover { 
+    background-color: salmon;
+   }
+
   
-  &:active {
+  a.one:active {
     top: 1px;
-  }
-}
+   }
+  
+  
+  a.two:link { 
+   color: lightpink;
+   background-color: none;
+   font-family: 'open sans';
+   font-size: 100;
+   font-size: 1em;
+   font-weight: 400;
+   margin: auto;
+   margin-right: 0px;
+   padding: 0.7% 2.0%;
+   padding-top: 0.7%;
+   padding-right: 2%;
+   padding-bottom: 0.7%;
+   padding-left: 2%;
+   text-decoration: none;
+   text-transform: none;
+   text-align: center;
+   }
+   
+  a.two:visited {
+	  color:antiquewhite;
+     }
+	 
+  a.two:hover {
+	  color:salmon;}
+   }
+
+
+   a.three:link { 
+    color: lightpink;
+    font-family: 'open sans';
+    font-size: 100;
+    font-size: 1em;
+    font-weight: 100;
+    text-align: center;
+    }
+   
+   a.three:visited {
+ 	  color:white;
+      }
+	 
+   a.three:hover {
+ 	  color:salmon;}
+    }
+
+    a.four:link { 
+     color: tomato;
+     font-family: 'open sans';
+     font-size: 100;
+     font-size: 1em;
+     font-weight: 100;
+     text-align: center;
+     }
+   
+    a.four:visited {
+  	  color:palevioletred;
+       }
+	 
+    a.four:hover {
+  	  color:salmon;}
+     }
+
