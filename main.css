@@ -187,6 +187,7 @@ section {
   background-size: cover;
   height: 90vh;
   color: black;
+  max-width: 100%; 
 }
 
 .date{
@@ -316,10 +317,14 @@ p {
 }
 
 .p-details {
-  font-size: 100%;
+  font-size: 130%;
   font-weight: 100;
   line-height: 170%;
   color: rosybrown;
+}
+
+.p-narrow {
+  max-width: 800px;
 }
 
 a.one {
