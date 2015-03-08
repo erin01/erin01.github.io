@@ -173,7 +173,7 @@ section {
     padding: 0 7%;
     display: table;
     margin: 0;
-    max-width: none;
+    max-width: 100%;
      background-color: antiquewhite;
     height: 100vh;
 }
