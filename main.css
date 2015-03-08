@@ -69,7 +69,7 @@ body
 h1 {
   border-bottom: 0px solid black;
   color: salmon;
-  font-family: 'oswald';
+  font-family: 'oswald, open sans, arial';
   font-size: 4em;
   font-weight: 200;
   font-stretch: normal;
