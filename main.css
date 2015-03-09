@@ -55,7 +55,7 @@
 }
 body 
   {
-  color: #332725;
+  color: white;
   font-family: 'Roboto';
   font-size: 1em;
   font-weight: 100;
@@ -75,7 +75,7 @@ h1 {
   font-stretch: normal;
   font-style: normal;
   font-variant: normal;
-  line-height: 1em;
+  line-height: 1.5em;
   text-align: center;
   text-transform: uppercase;
 }
@@ -170,7 +170,7 @@ section {
 
 .chunk{
     width: 100%;
-    padding: 0 7%;
+    padding: 20%;
     display: table;
     margin: 0;
     max-width: 100%;
@@ -206,8 +206,8 @@ section {
 
 .table{
   color: #B28782;
-  font-family: 'open sans';
-  font-size: 100;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 300;
   text-align: left;
   line-height: 160%;
 margin-bottom: 0px;
@@ -255,7 +255,7 @@ td {
 */
 
 .map{
-	background-image: url("images/ParkingMETRO.jpg"); 
+	background-image: url("images/ParkingMETROmap.jpg"); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -360,8 +360,7 @@ a.one {
   a.two:link { 
    color: lightpink;
    background-color: none;
-   font-family: 'open sans';
-   font-size: 100;
+   font-family: 'Open Sans', sans-serif;
    font-size: 1em;
    font-weight: 400;
    margin: auto;
@@ -386,14 +385,23 @@ a.one {
 
 
    a.three:link { 
-    color: lightpink;
-    font-family: 'open sans';
-    font-size: 100;
+    color: rosybrown;
+    background-color: none;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1em;
-    font-weight: 100;
+    font-weight: 400;
+    margin: auto;
+    margin-right: 0px;
+    padding: 0.7% 2.0%;
+    padding-top: 0.7%;
+    padding-right: 2%;
+    padding-bottom: 0.7%;
+    padding-left: 2%;
+    text-decoration: none;
+    text-transform: none;
     text-align: center;
     }
-   
+	
    a.three:visited {
  	  color:white;
       }
@@ -402,14 +410,24 @@ a.one {
  	  color:salmon;}
     }
 
-    a.four:link { 
-     color: tomato;
-     font-family: 'open sans';
-     font-size: 100;
-     font-size: 1em;
-     font-weight: 100;
-     text-align: center;
-     }
+ 
+ }  a.four:link { 
+    color: tomato;
+    background-color: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    margin: auto;
+    margin-right: 0px;
+    padding: 0.7% 2.0%;
+    padding-top: 0.7%;
+    padding-right: 2%;
+    padding-bottom: 0.7%;
+    padding-left: 2%;
+    text-decoration: none;
+    text-transform: none;
+    text-align: center;
+    }
    
     a.four:visited {
   	  color:palevioletred;
