@@ -75,7 +75,7 @@ h1 {
   font-stretch: normal;
   font-style: normal;
   font-variant: normal;
-  line-height: -1em;
+  line-height: 1em;
   text-align: center;
   text-transform: uppercase;
 }
