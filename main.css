@@ -1,56 +1,60 @@
-*, *:before, *:after {
-  box-sizing: border-box;
-}
+* {
+  box-sizing: border-box; 
+ 
+  /* http://meyerweb.com/eric/tools/css/reset/ 
+     v2.0 | 20110126
+     License: none (public domain)
+  */
 
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed, 
+  figure, figcaption, footer, header, hgroup, 
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+  	margin: 0;
+  	padding: 0;
+  	border: 0;
+  	font-size: 100%;
+  	font: inherit;
+  	vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure, 
+  footer, header, hgroup, menu, nav, section {
+  	display: block;
+  }
+  body {
+  	line-height: 1;
+  }
+  ol, ul {
+  	list-style: none;
+  }
+  blockquote, q {
+  	quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+  	content: '';
+  	content: none;
+  }
+  table {
+  	border-collapse: collapse;
+  	border-spacing: 0;
+  }
+  
+  
+  
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-body {
+body 
+  {
   color: white;
   font-family: 'Roboto';
   font-size: 1em;
@@ -60,7 +64,7 @@ body {
   margin-right: auto;
   text-align: center;
   background-color: rgba(28,13,10,.75);
-}
+  }
 
 h1 {
   border-bottom: 0px solid black;
@@ -139,7 +143,7 @@ hr {
   font-family: georgia;
   font-size: 200;
   text-align: center;
-}
+} 
 
 
 section {
@@ -162,39 +166,43 @@ section {
   vertical-align: middle;
 }
 
-*/
+*/ 
 
 .chunk{
-  width: 100%;
-  padding: 20%;
-  display: table;
-  margin: 0;
-  max-width: 100%;
-  background-color: antiquewhite;
-  height: 100vh;
+    width: 100%;
+    padding: 20%;
+    display: table;
+    margin: 0;
+    max-width: 100%;
+     background-color: antiquewhite;
+    height: 100vh;
 }
 
 .intro{
-  background-color: rgba(28,13,10,.75);
-  background-image: url("images/photo-small.png");
+  background-color: rgba(28,13,10,.75); 
+  background-image: url("images/photo-small.png"); 
   -webkit-background-size: cover;
-     -moz-background-size: cover;
-       -o-background-size: cover;
-          background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   height: 90vh;
   color: black;
-  max-width: 100%;
+  max-width: 100%; 
 }
 
 .date{
   background-color: white;
   height: 50vh;
+  
+	
 }
 
 .story{
   background-color: #FEE0DD;
-  height: 70vh;
+   height: 70vh;
+	
 }
+
 
 .table{
   color: #B28782;
@@ -202,96 +210,105 @@ section {
   font-size: 300;
   text-align: left;
   line-height: 160%;
-  margin: 0 auto;
+margin-bottom: 0px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 0px;
   text-transform: none;
   width: 70%;
+  
 }
-
 td {
-  padding: 15px;
-  vertical-align: top;
-}
+    padding: 15px;
+	vertical-align: top;
+	4f4644
+} 
+
 
 .wedding-details{
 	background-color: rgba(28,13,10,.75);
-	background-image: url("images/brookland.png");
-  -webkit-background-size: cover;
-     -moz-background-size: cover;
-       -o-background-size: cover;
-          background-size: cover;
-	font-size: 100px;
-	margin: 0;
+	background-image: url("images/brookland.png"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	font-size: 100;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
 }
 
 
 /*
 .map{
 	background-image: url("images/ParkingMETRO.jpg");
-	background-position:50% 50%;
-	background-repeat:no-repeat;
-	display:block;
-	height:140px;
+	background-position:50% 50%; 
+	background-repeat:no-repeat; 
+	display:block; 
+	height:140px; 
 	text-indent:-9999px;
-	-moz-background-size:cover;
-	-webkit-background-size:cover;
+	-moz-background-size:cover; 
+	-webkit-background-size:cover; 
 	background-size:cover;
 }
 */
 
 .map{
-  background-image: url("images/ParkingMETROmap.jpg");
-  -webkit-background-size: cover;
-     -moz-background-size: cover;
-       -o-background-size: cover;
-          background-size: cover;
-  font-size: 100;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 0px;
-}
+	background-image: url("images/ParkingMETROmap.jpg"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	font-size: 100;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	}
 
 .google-maps {
-  position: relative;
-  padding-bottom: 75%; /* This is the aspect ratio */
-  height: 0;
-  overflow: hidden;
-  background-color: white;
-  height: 100px;
-}
-
+     position: relative;
+     padding-bottom: 75%; // This is the aspect ratio
+     height: 0;
+     overflow: hidden;
+     background-color: white;
+     height: 100px;
+	 }
+ 
  .google-maps iframe {
-  position: absolute;
-  top: 40px;
-  left: 40px;
-  right: 40px;
-  bottom: 40px;
-  width: 100% !important;
-  height: 100% !important;
-}
+     position: absolute;
+     top: 40;
+     left: 40;
+	 right: 40;
+	 bottom: 40;
+     width: 100% !important;
+     height: 100% !important;
+	 }
 
 
 .accomodations{
-  background-color: linen;
-}
+	background-color: linen;
+	}
 
 .gifts{
-  background-color: #373B44;
-  background-color: #FEE0DD;
-  height: 40vh;
-}
+	background-color: #373B44;
+    background-color: #FEE0DD;
+     height: 40vh;
+	}
 
 .content{
-  display: table-cell;
-  vertical-align: middle;
-}
+    display: table-cell;
+    vertical-align: middle;
+	}
+
 
 p {
   font-size: 1.5em;
   font-weight: 200;
   color: rosybrown;
 	}
-
+	
 .p-small {
   font-size: 100%;
   font-weight: 200;
@@ -311,106 +328,112 @@ p {
 }
 
 a.one {
-  color: white;
-  background-color: #fe4b74;
-  font-family: 'Oswald';
-  font-size: 300;
-  font-size: 1em;
-  font-weight: 400;
-  margin-bottom: 4px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 20px;
-  padding: 0.7% 2.0%;
-  padding-top: 0.7%;
-  padding-right: 2%;
-  padding-bottom: 0.7%;
-  padding-left: 2%;
-  text-decoration: none;
-  text-transform: none;
-}
+   color: white;
+   background-color: #fe4b74;
+   font-family: 'Oswald';
+   font-size: 300;
+   font-size: 1em;
+   font-weight: 400;
+   margin-bottom: 4px;
+   margin-left: 0px;
+   margin-right: 0px;
+   margin-top: 20px;
+   padding: 0.7% 2.0%;
+   padding-top: 0.7%;
+   padding-right: 2%;
+   padding-bottom: 0.7%;
+   padding-left: 2%;
+   text-decoration: none;
+   text-transform: none;
+   }
 
-a.one:hover {
-  background-color: salmon;
-}
+  a.one:hover { 
+    background-color: salmon;
+   }
 
-a.one:active {
-  top: 1px;
-}
+  
+  a.one:active {
+    top: 1px;
+   }
+  
+  
+  a.two:link { 
+   color: lightpink;
+   background-color: none;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 1em;
+   font-weight: 400;
+   margin: auto;
+   margin-right: 0px;
+   padding: 0.7% 2.0%;
+   padding-top: 0.7%;
+   padding-right: 2%;
+   padding-bottom: 0.7%;
+   padding-left: 2%;
+   text-decoration: none;
+   text-transform: none;
+   text-align: center;
+   }
+   
+  a.two:visited {
+	  color:antiquewhite;
+     }
+	 
+  a.two:hover {
+	  color:salmon;}
+   }
 
-a.two:link {
-  color: lightpink;
-  background-color: none;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1em;
-  font-weight: 400;
-  margin: auto;
-  margin-right: 0px;
-  padding: 0.7% 2.0%;
-  padding-top: 0.7%;
-  padding-right: 2%;
-  padding-bottom: 0.7%;
-  padding-left: 2%;
-  text-decoration: none;
-  text-transform: none;
-  text-align: center;
-}
 
-a.two:visited {
-  color: antiquewhite;
-}
+   a.three:link { 
+    color: rosybrown;
+    background-color: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    margin: auto;
+    margin-right: 0px;
+    padding: 0.7% 2.0%;
+    padding-top: 0.7%;
+    padding-right: 2%;
+    padding-bottom: 0.7%;
+    padding-left: 2%;
+    text-decoration: none;
+    text-transform: none;
+    text-align: center;
+    }
+	
+   a.three:visited {
+ 	  color:white;
+      }
+	 
+   a.three:hover {
+ 	  color:salmon;}
+    }
 
-a.two:hover {
-  color: salmon;
-}
+ 
+ }  a.four:link { 
+    color: tomato;
+    background-color: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    margin: auto;
+    margin-right: 0px;
+    padding: 0.7% 2.0%;
+    padding-top: 0.7%;
+    padding-right: 2%;
+    padding-bottom: 0.7%;
+    padding-left: 2%;
+    text-decoration: none;
+    text-transform: none;
+    text-align: center;
+    }
+   
+    a.four:visited {
+  	  color:palevioletred;
+       }
+	 
+    a.four:hover {
+  	  color:salmon;}
+     }
 
-a.three:link {
-  color: rosybrown;
-  background-color: none;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1em;
-  font-weight: 400;
-  margin: auto;
-  margin-right: 0px;
-  padding: 0.7% 2.0%;
-  padding-top: 0.7%;
-  padding-right: 2%;
-  padding-bottom: 0.7%;
-  padding-left: 2%;
-  text-decoration: none;
-  text-transform: none;
-  text-align: center;
-}
-
-a.three:visited {
-  color:white;
-}
-
-a.three:hover {
-  color: salmon;
-}
-
-a.four:link {
-  color: tomato;
-  background-color: none;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1em;
-  font-weight: 400;
-  margin: auto;
-  margin-right: 0px;
-  padding: 0.7% 2.0%;
-  padding-top: 0.7%;
-  padding-right: 2%;
-  padding-bottom: 0.7%;
-  padding-left: 2%;
-  text-decoration: none;
-  text-transform: none;
-  text-align: center;
-}
-a.four:visited {
-  color:palevioletred;
-}
-
-a.four:hover {
-  color:salmon;
-}
